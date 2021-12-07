@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+header {
+  background-color: #1a1a1a;
+  height: 100px;
+  width: 100%;
+}
+
+p {
+  color: ghostwhite;
+  display: inline-block;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-style: normal;
+}
+.navtext {
+  font-size: 17.5px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.navtext:hover {
+  color: #b048ec;
+}
+a {
+  text-decoration: none;
+  color: #b048ec;
+}
+
+.exit_img {
+  position: absolute;
+  right: 65px;
+  top: 37px;
+}
+.img_div {
+  background-color: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: -50px;
+}
+.ad_image {
+  max-width: 725px;
+}
+.ad {
+  color: #b048ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 65px;
+  padding-bottom: 100px;
+  font-size: 42px;
+  letter-spacing: 15px;
+}
+
+input[type="text"] {
+  position: absolute;
+  right: 145px;
+  top: 40px;
+  font-size: 17.5px;
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: ghostwhite;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #f8f8ff;
+  background-color: rgba(0, 0, 0, 0);
+}
+main {
+  width: 100%;
+  background: #111111;
+  min-height: calc(100vh - 100px);
+}
+.signup {
+  background: #1a1a1a;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.signup2 {
+  background: #202020;
+  width: 600px;
+  min-height: 400px;
+  padding: 3em 0;
+  border-radius: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-shadow: 0px 4px 70px 25px rgba(0, 0, 0, 0.7);
+
+  text-align: justify;
+}
+
+label {
+  font-family: "M PLUS 1 Code", sans-serif;
+  color: #b048ec;
+  font-size: 17.5px;
+  margin-top: 35px;
+  display: inline-block;
+}
+input[type="inputtext"] {
+  margin-top: 35px;
+  width: 275px;
+  font-size: 17.5px;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+input[type="password"] {
+  margin-top: 35px;
+  width: 275px;
+  font-size: 17.5px;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+input[type="email"] {
+  margin-top: 35px;
+  width: 275px;
+  font-size: 17.5px;
+  padding: 0.5em;
+  border-radius: 10px;
+}
+input[type="submit"] {
+  font-weight: 600;
+  margin-top: 35px;
+  width: 225px;
+  font-size: 24px;
+  padding: 0.2em;
+  border-radius: 10px;
+  background-color: #b048ec;
+  color: #202020;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+#error {
+  margin-top: 35px;
+  display: none;
+  text-align: center;
+  color: red;
+  visibility: hidden;
+}
+h2 {
+  color: #b048ec;
+  font-family: "M PLUS 1 Code", sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+h3 {
+  padding-top: 60px;
+  color: #b048ec;
+  font-family: "M PLUS 1 Code", sans-serif;
+}
+.store_div {
+  display: grid;
+  padding: 50px 150px;
+  grid-template-columns: repeat(3, 25%);
+  grid-gap: 60px;
+  grid-column-gap: calc(100vw - 75% - 450px);
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.8);
+  min-height: 375px;
+  position: relative;
+}
+.product_title {
+  padding-top: 20px;
+  position: absolute;
+  bottom: 0;
+  background-color: #111111;
+  width: 100%;
+}
+.infosegment {
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 100px;
+}
+.contacttext {
+  margin-top: 5px;
+  font-size: 17.5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.infotext {
+  margin-top: 5px;
+  font-size: 17.5px;
+  margin-bottom: 10px;
+  text-align: justify;
+}

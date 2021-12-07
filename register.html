@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="signup">
+      <div class="signup2">
+        <form id="signbody" onsubmit="return checkSignUp(this)">
+          <h2 style="padding: 0">Sign up</h2>
+
+          <label for="em">Enter your email</label>
+          <input type="email" placeholder="student@hneu.net" name="" id="em" />
+
+          <label for="log">Enter your login</label>
+          <input type="inputtext" placeholder="admin" name="" id="log" />
+          <label for="pas">Enter your password</label>
+          <input type="password" placeholder="12345" name="" id="pas" />
+          <label for="pas1">Repeat password</label>
+          <input type="password" placeholder="12345" name="" id="pas1" />
+
+          <input type="submit" value="Submit" value="" />
+          <p id="error"></p>
+          <script src="./js/register.js"></script>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
